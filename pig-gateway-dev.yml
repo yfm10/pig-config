@@ -34,7 +34,7 @@ zuul:
       sensitiveHeaders:
   ratelimit:
     key-prefix: pig-ratelimite 
-    enabled: true 
+    enabled: false 
     repository: REDIS 
     behind-proxy: true
     policies:
